@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_200">
+
+    <EditText
+        android:id="@+id/et_hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_hp"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_cp"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_sp"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_np"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_np"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_op"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_op"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_wp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_wp"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_ap"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn_res"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_res"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_back"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+
+</LinearLayout>

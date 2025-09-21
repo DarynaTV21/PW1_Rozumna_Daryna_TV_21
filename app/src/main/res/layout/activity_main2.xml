@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/purple_200">
+
+    <EditText
+        android:id="@+id/et_hg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_hg"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_cg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_cg"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_sg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_sg"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_og"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_og"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_vg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_vg"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_wg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_wg"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_ag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_ag"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/et_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hint_x"
+        android:backgroundTint="#9F2B68"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn_res"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_res"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_back"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="hint_hp">Введіть Hp (%) :</string>
+    <string name="hint_cp">Введіть Cp (%) :</string>
+    <string name="hint_sp">Введіть Sp (%) :</string>
+    <string name="hint_np">Введіть Np (%) :</string>
+    <string name="hint_op">Введіть Op (%) :</string>
+    <string name="hint_wp">Введіть Wp (%) :</string>
+    <string name="hint_ap">Введіть Ap (%) :</string>
+    <string name="hint_hg">Введіть Hg (%) :</string>
+    <string name="hint_cg">Введіть Cg (%) :</string>
+    <string name="hint_sg">Введіть Sg (%) :</string>
+    <string name="hint_og">Введіть Og (%) :</string>
+    <string name="hint_vg">Введіть Vg (%) :</string>
+    <string name="hint_wg">Введіть Wg (%) :</string>
+    <string name="hint_ag">Введіть Ag (%) :</string>
+    <string name="hint_x">Нижча теплота згоряння горючої маси мазуту (МДж/кг) :</string>
+    <string name="btn_res">Розрахувати</string>
+    <string name="text_res">Результат:</string>
+    <string name="text_back">Назад</string>
+    <string name="text_first">Оберіть калькулятор:</string>
+    <string name="text_calc1">Калькулятор для розрахунку складу сухої та горючої маси палива</string>
+    <string name="text_calc2">Калькулятор для перерахунку елементарного складу та нижчої теплоти згоряння мазуту</string>
+</resources>
